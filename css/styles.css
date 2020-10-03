@@ -1,0 +1,171 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 15px;
+}
+
+body, nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4,
+.skills-list{
+	font-family: 'Inknut Antiqua', serif;
+}
+
+ul li{
+	list-style: none;
+}
+
+nav {
+	background: #DBEBF4;
+	text-align: center;
+	position: fixed;
+	z-index: 1;
+	width: 100%
+}
+
+nav ul{
+	margin: 0 auto;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 20px 0;
+	letter-spacing: 2px;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+	transition: background 0.5s ease-in-out, color 0.25s ease-in-out, border-radius 0.5s ease-in-out;
+}
+
+nav li a:hover{
+	background: black;
+	color: white;
+	border-radius: 100px;
+}
+
+
+li.empty {
+	width: 100px;
+	border-top: 2px solid black;
+	top: 35px;
+	position: relative;
+}
+
+header {
+	top: 50px;
+	position: relative;
+	margin-bottom: 100px;
+	background-image: url(../img/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -250px;
+}
+
+header img{
+	box-shadow: 2px 2px 30px rgba(0,0,0,.5);
+	margin: 40px 0 10px 0;
+}
+
+header ul {
+	padding: 0;
+}
+
+.button{
+	background-color: #DBEBF4;
+	border: 1px solid black;
+	border-radius: 100px;
+	text-decoration :none;
+	padding: 10px 30px;
+	display: inline-block;
+	color: black;
+	transition: background 0.5s ease-in-out, color 0.25s ease-in-out;
+}
+
+h1{
+	font-size: 100px;
+	line-height: 100%;
+	margin-top:110px;
+	font-weight: normal;
+}
+h2{
+	font-size: 50px;
+	line-height: 150%;
+	font-weight: normal;
+}
+h3{
+	font-size: 30px;
+	line-height: 150%;
+	font-weight: bold;
+	margin: 0;
+}
+h4{
+	line-height: 150%
+}
+
+
+
+figcaption {
+	font-size: 12px;
+}
+
+.right-allign {
+	text-align: right;
+}
+
+
+p {
+	text-align: justify;
+	line-height: 150%
+}
+
+
+.skills-list{
+	text-align: center;
+	font-size: 30px;
+	line-height: 150%;
+	margin-bottom: 75px;
+}
+
+.col-sm img{
+	max-width: 100%
+}
+
+.cosmetics, .ipad, .dashboard{
+	padding: 100px 0 75px;
+}
+
+
+.cosmetics, .ipad{
+	background-color: #DBEBF4;
+}
+
+.cosmetics .button{
+	background-color: #FFFFFF;
+}
+
+.ipad .button{
+	background-color: #FFFFFF;
+}
+
+
+footer {
+	text-align: center;
+	margin: 20px auto 40px;
+}
+
+.button:hover{
+	background: black;
+	color: white;
+}
