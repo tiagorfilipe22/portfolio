@@ -4,8 +4,10 @@ html{
 
 body{
 	font-family: 'IBM Plex Mono', monospace;
-	font-size: 15px;
+	font-size: 16px;
+	color: #244441;
 }
+
 
 body, nav ul{
 	margin: 0;
@@ -22,7 +24,7 @@ ul li{
 }
 
 nav {
-	background: #DBEBF4;
+	background: rgb(216, 198, 150);
 	text-align: center;
 	position: fixed;
 	z-index: 1;
@@ -44,13 +46,13 @@ nav ul li{
 
 ul li a{
 	text-decoration: none;
-	color: black;
+	color: #244441;
 	padding: 10px 20px;
 	transition: background 0.5s ease-in-out, color 0.25s ease-in-out, border-radius 0.5s ease-in-out;
 }
 
 nav li a:hover{
-	background: black;
+	background: #244441;
 	color: white;
 	border-radius: 100px;
 }
@@ -64,18 +66,25 @@ li.empty {
 }
 
 header {
-	top: 50px;
-	position: relative;
-	margin-bottom: 100px;
-	background-image: url(../img/background.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position-y: -250px;
+	height: 100vh;
+	padding-top: 100px;
+	margin-bottom: 50px;
+	/*background-image: url(../img/background.png);*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;
+	background-position-y: -250px;*/
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(216,198,150,1) 100%);
 }
 
 header img{
 	box-shadow: 2px 2px 30px rgba(0,0,0,.5);
 	margin: 40px 0 10px 0;
+	border-radius: 50px;
+}
+
+img {
+	border-radius: 50px;
 }
 
 header ul {
@@ -83,41 +92,43 @@ header ul {
 }
 
 .button{
-	background-color: #DBEBF4;
-	border: 1px solid black;
+	background-color: rgb(216, 198, 150);
+	border: 1px solid #244441;
 	border-radius: 100px;
 	text-decoration :none;
 	padding: 10px 30px;
 	display: inline-block;
-	color: black;
+	color: #244441;
 	transition: background 0.5s ease-in-out, color 0.25s ease-in-out;
 }
 
 h1{
+	color: #cea48c;
 	font-size: 100px;
 	line-height: 100%;
 	margin-top:110px;
 	font-weight: normal;
 }
 h2{
+	color: #cea48c;
 	font-size: 50px;
 	line-height: 150%;
 	font-weight: normal;
 }
 h3{
+	color: #244441;
 	font-size: 30px;
 	line-height: 150%;
 	font-weight: bold;
 	margin: 0;
 }
-h4{
-	line-height: 150%
-}
+
 
 
 
 figcaption {
 	font-size: 12px;
+	text-align: center;
 }
 
 .right-allign {
@@ -143,12 +154,15 @@ p {
 }
 
 .cosmetics, .ipad, .dashboard{
-	padding: 100px 0 75px;
+	margin: 70px 0;
+	/*background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(216,198,150,0.75) 50%, rgba(255,255,255,1) 100%);*/
 }
 
 
 .cosmetics, .ipad{
-	background-color: #DBEBF4;
+	/*background-color: rgb(216, 198, 150);*/
+	
 }
 
 .cosmetics .button{
@@ -166,6 +180,6 @@ footer {
 }
 
 .button:hover{
-	background: black;
+	background: #244441;
 	color: white;
 }
